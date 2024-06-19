@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./img/Asset 1.png">
+  <title>Lembang Park Zoo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<input type="checkbox" id="bars">
+  <nav class="nav-bar" id="navbar">
+    <div class="content">
+      <div class="site-logo">
+        <a href="#" class="logo-link">OlympicHorizon</a>
+      </div>
+
+      <ul class="navigation">
+        <li class="link"><a href="#home">home</a></li>
+        <li class="link"><a href="#about">about</a></li>
+        <li class="link"><a href="#next">info</a></li>
+        <li class="link"><a href="#blog">blog</a></li>
+        <li class="link"><a href="#gallery">gallery</a></li>
+        <li class="link"><a href="#bawah">contact</a></li>
+
+      </ul>
+
+      <label for='bars' class="icon-bars"><i class="ri-bar-chart-2-fill"></i></label>
+    </div>
+  </nav>
+
+  <header class="home" id="home">
+    <div class="content">
+      <h1>The <strong>lembang</strong> park <strong> & </strong> zoo </h1>
+      <h4>Kebun Binatang: Sarana Edukasi dan Rekreasi Keluarga!</h4>
+      <button class="btn-explore" >Buy Ticket <i class="ri-arrow-right-line"></i> </button>
+    </div>
+  </header>
+
+
+  <section class="about" id="about">
+    <div class="content">
+      <div class="items">
+
+        <div class="image">
+          <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2FDSC07950.JPG&w=1920&q=75" alt="" srcset="">
+        </div>
+        <div class="item">
+          <div class="item-content">
+            <h2 class="about-title">
+              About
+            </h2>
+            <div class="about-desc">
+              <p>
+                Kebun binatang adalah tempat yang sempurna untuk menghabiskan waktu liburan bersama keluarga. Di
+                sana, Anda dapat menikmati keindahan alam dan melihat berbagai jenis hewan dari seluruh dunia. Dari
+                singa yang gagah, gajah yang megah, hingga burung-burung berwarna cerah, kebun binatang menawarkan
+                pengalaman yang tak terlupakan.
+              </p>
+              <p>
+                Jadi, jika Anda ingin menghabiskan waktu berkualitas bersama keluarga sambil belajar lebih banyak
+                    tentang satwa liar, kunjungilah kebun binatang! 🦁🐘🦒🦓🦩
+              </p>
+            </div>
+          </div>
+
+          <div class="item-data">
+            <div class="col">
+              <h1>10</h1>
+              <span>Wahana</span>
+            </div>
+            <div class="col">
+              <h1>8</h1>
+              <span>Tempat</span>
+            </div>
+
+          </div>
+
+          <button class="btn-explore" onclick="anggota()">Explore more <i class="ri-arrow-right-line"></i> </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="next" id="next">
+    <div class="heading">
+      <h1 class="title">Thinks to do</h1>
+      <p class="subtitle">while seeing unique and adorable animals</p>
+    </div>
+    <div class="content">
+      <div class="items">
+
+        <div class="card">
+          <div class="image">
+            <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2FWhatsApp%2520Image%25202024-04-27%2520at%252009.32.17.jpeg&w=1920&q=75" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Close encounters</h4>
+            <button class="btn-read">read More</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2FKAMPUNG%2520SATWA-2.jpg&w=1920&q=75" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Keeper talk</h4>
+            <button class="btn-read">read More</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2FDSC09594-min.JPG&w=1920&q=75" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Kampung satwa</h4>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="blog" id="blog">
+    <div class="heading">
+      <h1 class="title">Latest on our blog</h1>
+      <p class="subtitle">Mari kita berkunjung Ke Lembang park & zoo!!</p>
+    </div>
+    <div class="content">
+      <div class="items">
+        <div class="card">
+          <img src="https://www.bandungsatu.com/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-25-at-22.11.46_ee3d585f.jpg" alt="" srcset="">
+          <div class="content-card">
+            <p>
+              Lihat Satwa di LPZ Pakai Mobil Tanpa Kaca, Jadi Pengalaman Seru.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://inspira.tv/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-02-at-18.14.56_6b3bc6e3.jpg" alt="" srcset="">
+          <div class="content-card">
+            <p>
+              Lembang Park and Zoo Masuk 5 Besar Kebun Binatang Terbaik di Indonesia.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAgPM5LG-uNyy3_9311ECgUO4CkJHHBLatWTXLLz4wtUmxbi0UJk32TBPR8AMNp-t9woB15x3Yb4h1H3F03ARKYnOMrKgZ2gbBKCnqchahfVDPtvpi3xGb_sevi_GRLtLscZ5ryNENHbLaaVs_BPUZjXNHS2QX1FN6-G1G8-BDX4a1YtKoDcYVwBKNViE/s320/IMG-20240510-WA0035.jpg" alt="" srcset="">
+            <div class="content-card">
+            <p>
+              Gibran Wakil Presiden Terpilih Kunjungi Tempat Wisata Lembang Bandung.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="site-banner">
+    <div class="content">
+      <div class="row">
+        <p>Lembang Park <small>&</small> Zoo</p>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="gallery" id="gallery">
+    <div class="heading">
+      <h1 class="title">Our Album </h1>
+      <p class="subtitle">some of the animals that are popular in Lembang Park & Zoo</p>
+    </div>
+    <div class="items">
+
+      <div class="card">
+        <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2Fostrich.jpg&w=1920&q=75" alt="" srcset="">
+      </div>
+      <div class="card">
+        <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2Fgajah%2520sumatera.jpg&w=1920&q=75" alt="" srcset="">
+      </div>
+      <div class="card">
+        <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2Fberuk.jpg&w=1920&q=75" alt="" srcset="">
+      </div>
+      <div class="card">
+        <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2Forangutan-min.jpg&w=1920&q=75" alt="" srcset="">
+      </div>
+      <div class="card">
+        <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2Fharimau%2520siberia.jpg&w=1920&q=75" alt="" srcset="">
+      </div>
+      <div class="card">
+        <img src="https://www.lembangparkzoo.co.id/_next/image?url=https%3A%2F%2Flpz-web.s3.ap-southeast-2.amazonaws.com%2Fbinturong%2520sumatera.jpg&w=1920&q=75" alt="" srcset="">
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+      </div>
+    </div>
+  </section>
+  <section id="bawah">
+    <footer class="footer2">
+      <div class="container2">
+          <div class="row2">
+              <div class="footer-col2">
+                  <h4>Quick Links</h4>
+                  <ul>
+                    <li class="link"><a href="#home">home</a></li>
+                    <li class="link"><a href="#about">about</a></li>
+                    <li class="link"><a href="#next">info</a></li>
+                    <li class="link"><a href="#blog">blog</a></li>
+                    <li class="link"><a href="#gallery">gallery</a></li>
+                    <li class="link"><a href="#bawah">contact</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col2">
+                  <h4>Contact</h4>
+                  <div class="sosial-links">
+  
+                      <a href="https://wa.me/6281313498626"><i class="fa-brands fa-whatsapp"></i></a>
+                      <a href="mailto:lembangparkzoo@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                      <a href="tel:022 27614091"><i class="fa-solid fa-phone"></i></a>
+                  </div>
+              </div>
+              <div class="footer-col2">
+                  <h4>Lokasi</h4>
+                  <p class="teks">Jl. Kolonel Masturi No.171, Sukajaya, Kec. Lembang, Kabupaten Bandung Barat, Jawa
+                      Barat 40391</p>
+              </div>
+              <div class="footer-col2">
+                  <h4>Jam operasional</h4>
+                  <p class="teks">Senin-Jumat</p>
+                  <p class="teks">09.00 - 17.00 WIB</p>
+                  <p class="teks">Sabtu - Minggu, Tanggal Merah</p>
+                  <p class="teks">08.00 - 18.00 WIB</p>
+              </div>
+          </div>
+      </div>
+      <div class="copyright">
+          <div class="wrapper">
+              &copy; 2024. <b>XPPLG1.</b> All Right Reversed.
+          </div>
+      </div>
+  </footer>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

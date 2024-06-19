@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/Asset 1.png">
+    <title>Lembang Park Zoo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00040b;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container3 {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #01204E;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 100px;
+            margin-bottom: 70px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #f35405;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .ticket {
+            border: 1px solid #000000;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: block;
+        }
+    </style>
+
+    <input type="checkbox" id="bars">
+    <nav class="nav-bar" id="navbar">
+        <div class="content">
+            <div class="site-logo">
+                <a href="#" class="logo-link">OlympicHorizon</a>
+            </div>
+
+            <ul class="navigation">
+                <li class="link"><a href="index.html">home</a></li>
+                <li class="link"><a href="#about">Ticket</a></li>
+                <li class="link"><a href="#bawah">contact</a></li>
+
+            </ul>
+
+            <label for='bars' class="icon-bars"><i class="ri-bar-chart-2-fill"></i></label>
+        </div>
+    </nav>
+
+    <header class="home" id="home">
+        <div class="content">
+            <h4>Pembelian Ticket</h4>
+            <h1>The <strong>lembang</strong> park <strong> & </strong> zoo </h1>
+            <button class="btn-explore">Scroll Here<i class="ri-arrow-down-line"></i> </button>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="container3">
+                <h1>Lembang Park Zoo Ticket</h1>
+                <h1>Weekdays</h1>
+                <div id="form-container">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama Anda" required>
+                    <label for="jumlah_tiket">Jumlah Tiket:</label>
+                    <input type="number" id="jumlah_tiket" placeholder="Jumlah tiket yang ingin dibeli" required>
+                    <button onclick="beliTiket()">Beli Tiket</button>
+                </div>
+                <div class="ticket" id="ticket"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container3">
+                <h1>Lembang Park Zoo Ticket</h1>
+                <h1>Weekend</h1>
+                <div id="form-container">
+                    <label for="nama2">Nama:</label>
+                    <input type="text" id="nama2" placeholder="Masukkan nama Anda" required>
+                    <label for="jumlahTiket2">Jumlah Tiket:</label>
+                    <input type="number" id="jumlahTiket2" placeholder="Jumlah tiket yang ingin dibeli" required>
+                    <button onclick="beliTiket2()">Beli Tiket</button>
+                </div>
+                <div class="ticket" id="ticket2"></div>
+            </div>
+        </div>
+    </section>
+    <section id="bawah">
+        <footer class="footer2">
+            <div class="container2">
+                <div class="row2">
+                    <div class="footer-col2">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aboutme">About</a></li>
+                            <li><a href="#info">Info</a></li>
+                            <li><a href="#lokasi">Lokasi</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col2">
+                        <h4>Contact</h4>
+                        <div class="sosial-links">
+
+                            <a href="https://wa.me/6281313498626"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="mailto:lembangparkzoo@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                            <a href="tel:022 27614091"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                        <h4>Lokasi</h4>
+                        <p class="teks">Jl. Kolonel Masturi No.171, Sukajaya, Kec. Lembang, Kabupaten Bandung Barat,
+                            Jawa
+                            Barat 40391</p>
+                    </div>
+                    <div class="footer-col2">
+                        <h4>Jam operasional</h4>
+                        <p class="teks">Senin-Jumat</p>
+                        <p class="teks">09.00 - 17.00 WIB</p>
+                        <p class="teks">Sabtu - Minggu, Tanggal Merah</p>
+                        <p class="teks">08.00 - 18.00 WIB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="wrapper">
+                    &copy; 2024. <b>NazwanNaufalAziz.</b> All Right Reversed.
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+<script src="main.js"></script>
+
+</html>
